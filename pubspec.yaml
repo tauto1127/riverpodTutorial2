@@ -1,0 +1,41 @@
+name: riverpod_tutorial
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+dependencies: 
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+ # 状態管理関連
+  flutter_riverpod: 2.4.9
+  riverpod_annotation: 2.3.3
+  freezed: 2.4.5
+  freezed_annotation: 2.4.1
+  #json_serializable: 6.7.1
+  #json_annotation: 4.8.1
+
+  # 遷移関連
+  routemaster: 1.0.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # コード整形
+  flutter_lints: 3.0.1
+
+  # コード生成
+  build_runner: 2.4.7
+  riverpod_generator: 2.3.9
+  riverpod_lint: 2.3.7
+
+  # oss_licenses.dart の生成コマンド（パッケージを追加したら実行する）
+  # flutter pub run flutter_oss_licenses:generate.dart -o lib/constant/oss_licenses.dart
+
+
+flutter:
+  uses-material-design: true
